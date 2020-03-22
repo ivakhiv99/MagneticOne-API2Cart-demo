@@ -1,0 +1,9 @@
+.product {
+    box-shadow: 0 0 5px 1px #333;
+    padding: 0 10px;
+    margin: 0 15px 20px;
+    &__picture {
+        max-width: 200px;
+        max-height: 250px;
+    }
+}

@@ -1,0 +1,19 @@
+.products {
+    height: 650px;
+    padding-top: 5px;
+
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+    &__controls {
+     
+    }
+
+    &__grid {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+
+@import './productItem';
