@@ -8,11 +8,11 @@ const ProductItem = () => (
         alt='poduct'
         className='product__picture'
         /> 
-        <h2>Product name</h2>
+        <h2 className='product__name'>Product name</h2>
         <p>product description...</p>
-        <h5>SKU</h5>
-        <span>price</span>
-        <p>left in stock</p>
+        <h5 className='product__sku'>SKU</h5>
+        <span className='product__price'>$420</span>
+        <p className='product__left-in'> 42 left in stock</p>
     </div>  
 )
 
