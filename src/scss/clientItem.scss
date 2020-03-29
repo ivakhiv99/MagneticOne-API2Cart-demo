@@ -1,0 +1,33 @@
+.client {
+    // box-shadow: 0 0 5px 1px #333;
+    padding: 0 0px 10px;
+    margin: 0 15px 20px;
+    // background-color: #D6D6D6;
+
+
+    &__picture {
+        max-width: 100px;
+        max-height: 150px;
+        margin: 0 auto 10px;
+    }
+
+    &__name {
+        font-size: 18px;
+        color: #217A92;
+        margin: 0;
+    }
+
+    &__reg-date {
+        font-size: 16px;
+        color: #444;
+        margin: 0;
+    }
+
+    & p {
+        margin: 0;
+    }
+    
+    & span {
+        margin: 0;
+    }
+}

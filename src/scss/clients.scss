@@ -1,0 +1,19 @@
+.clients {
+    height: 650px;
+    width: auto;
+    padding-top: 5px;
+
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FAF8FF;
+
+    &__grid {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+}
+
+@import './clientItem';
